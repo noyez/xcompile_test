@@ -1,0 +1,10 @@
+[package]
+name = "xcompile_test"
+version = "0.1.0"
+
+[dependencies]
+error-chain = "0.10.0"
+diesel_codegen = { version = "0.16.0", features = ["postgres"] }
+
+#[build-dependencies]
+#cc = "1.0"
